@@ -3,8 +3,14 @@ public class Carro {
     private String modelo;
     private int ano;
 
-    public String getMarca(){
-        return this.marca;
+    public Carro(String marca, String modelo, int ano){
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+    }
+
+    public String getMarca() {
+        return marca;
     }
 
     public void setMarca(String marca) {
