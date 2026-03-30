@@ -9,7 +9,13 @@ public class Carro {
         this.ano = ano;
     }
 
-    public String getMarca() {
+    public Carro(){
+        this.marca = "Desconhecido";
+        this.modelo = "Desconhecido";
+        this.ano = 0;
+    }
+
+    public String getMarca() { //void não retorna nada
         return marca;
     }
 
