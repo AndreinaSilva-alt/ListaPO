@@ -1,16 +1,42 @@
 public class Carro {
-    String marca;
-    String modelo;
-    int ano;
+    private String marca;
+    private String modelo;
+    private int ano;
 
-    public int idadeDoCarro(){
-        return 2026 - ano;
+    public String getMarca(){
+        return this.marca;
     }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public int getAno() {
+        return ano;
+    }
+
+    public void setAno(int ano) {
+        if (ano < 1886 || ano > 2026) {
+            System.out.println("Erro!");
+        } else {
+            this.ano = ano;
+        }
+    }
+
+
     public void exibir() {
-        System.out.println("marca: " + this.marca);
-        System.out.println("modelo " + this.modelo);
-        System.out.println("ano " +  this.ano);
-        System.out.println("A idade do carro é " + idadeDoCarro());
+        System.out.println("marca: " + this.getMarca());
+        System.out.println("modelo " + this.getModelo());
+        System.out.println("ano " +  (this.getAno() == 0 ? "Não informado" : this.getAno()));
+
 
     }
 }
