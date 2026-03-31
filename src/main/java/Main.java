@@ -8,6 +8,9 @@ public class Main {
         Carro Carro5 = new Carro("Dodge", "Ram 2500",2024);
         System.out.println("-----------------------");
         Carro.imprimirTotal();
+
+        System.out.println("Ano primeiro carro: " + Carro.ANO_PRIMEIRO_CARRO);
+
     }
 }
 

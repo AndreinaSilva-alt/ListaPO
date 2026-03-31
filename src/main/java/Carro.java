@@ -2,6 +2,7 @@ public class Carro {
     private String marca;
     private String modelo;
     private int ano;
+    public static final int ANO_PRIMEIRO_CARRO = 1886; //constante
     public static int totalCarros = 0; //atributo estático
 
     public Carro(String marca, String modelo, int ano){
@@ -43,7 +44,7 @@ public class Carro {
     }
 
     public void setAno(int ano) {
-        if (ano < 1886 || ano > 2026) {
+        if (ano < ANO_PRIMEIRO_CARRO  || ano > 2026) {
             System.out.println("Erro!");
         } else {
             this.ano = ano;
