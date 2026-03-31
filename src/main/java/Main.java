@@ -7,9 +7,7 @@ public class Main {
         Carro Carro4 = new Carro();
         Carro Carro5 = new Carro("Dodge", "Ram 2500",2024);
         System.out.println("-----------------------");
-        System.out.println("-----------------------");
-        System.out.println("Total de carros criados: " + Carro.totalCarros);
-
+        Carro.imprimirTotal();
     }
 }
 
