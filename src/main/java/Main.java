@@ -15,13 +15,17 @@ public class Main {
                 x = 10;
             }
             System.out.println(x);
+
+            int a = 10;
+            int b = a;
+            b = 99;
+            System.out.println("a = " + a);
+            System.out.println("b = " + b);
+
         }
+
     }
-// O escopo é a região do código onde uma variável é "visível" e pode ser acessada.
-// No caso do Java, o escopo é delimitado por chaves {}.
-
-//A variável x não existia fora do if, pois como ela está dentro das chaves, ela vira uma variável local daquele bloco.
-
-
+//a ficou valendo 10 e b ficou valendo 99.
+//alterar o B não mudou o A pois como são variáveis com memórias diferentes, alterar um não vai mudar a memória do outro.
 
 
