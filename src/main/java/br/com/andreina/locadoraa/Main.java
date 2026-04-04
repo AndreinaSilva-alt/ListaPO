@@ -73,5 +73,6 @@ O nextLine após o nextInt é utilizado para limpar o buffer e evitar problemas 
 
 O sistema utiliza validação no ano do filme dentro da classe Filme, garantindo valores entre 1895 e 2026.
 
-A classe Main controla o fluxo do sistema, enquanto as classes Filme e Locadora organizam os dados seguindo o conceito de orientação a objetos.
+
 */
+//A classe Main controla o fluxo do sistema, enquanto as classes Filme e Locadora organizam os dados seguindo o conceito de orientação a objetos.
