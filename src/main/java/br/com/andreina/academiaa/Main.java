@@ -56,3 +56,21 @@ public class Main {
         sc.close();
     }
 }
+/*
+O programa utiliza um menu com do-while para continuar rodando até o usuário escolher sair.
+
+O Scanner é usado para ler os dados digitados pelo usuário no teclado.
+
+O switch é responsável por decidir qual ação executar com base na opção escolhida.
+
+Na opção 1, o sistema coleta os dados do aluno e cria um objeto Aluno, que é enviado para a classe Academia cadastrar.
+
+Na opção 2, o sistema lista todos os alunos armazenados dentro do ArrayList da classe Academia.
+
+Na opção 3, é utilizado um método static para mostrar o total de alunos cadastrados no sistema.
+
+O nextLine após o nextInt é usado para limpar o buffer e evitar erros de leitura.
+
+O sistema segue o conceito de orientação a objetos, onde a Main controla o fluxo e a classe Academia gerencia os dados.
+*/
+

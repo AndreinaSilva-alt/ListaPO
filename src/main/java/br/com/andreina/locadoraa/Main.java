@@ -57,3 +57,21 @@ public class Main {
         sc.close();
     }
 }
+
+/*
+O programa utiliza um menu com do-while para continuar executando até o usuário escolher sair.
+
+O Scanner é utilizado para capturar os dados digitados pelo usuário no teclado.
+
+Na opção 1, o sistema solicita título, gênero e ano do filme, cria um objeto Filme e o cadastra na locadora.
+
+Na opção 2, o sistema lista todos os filmes armazenados no ArrayList da classe Locadora.
+
+Na opção 3, é exibido o total de filmes cadastrados utilizando um atributo static da classe Locadora.
+
+O nextLine após o nextInt é utilizado para limpar o buffer e evitar problemas na leitura de dados.
+
+O sistema utiliza validação no ano do filme dentro da classe Filme, garantindo valores entre 1895 e 2026.
+
+A classe Main controla o fluxo do sistema, enquanto as classes Filme e Locadora organizam os dados seguindo o conceito de orientação a objetos.
+*/

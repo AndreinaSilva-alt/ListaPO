@@ -101,3 +101,24 @@
 
 
 
+/*
+    O programa utiliza um menu com do-while para continuar executando até o usuário escolher sair.
+
+    O Scanner é utilizado para capturar os dados digitados pelo usuário no teclado.
+
+    Foi utilizado ArrayList para armazenar os lanches do cardápio, permitindo adicionar vários itens dinamicamente.
+
+    Na opção 1, o sistema cadastra um novo lanche com nome e preço, validando posteriormente na classe Lanche.
+
+    Na opção 2, o sistema lista todos os lanches cadastrados no cardápio.
+
+    Na opção 3, o sistema permite montar um pedido escolhendo vários lanches, utilizando uma repetição até finalizar.
+
+    Cada lanche escolhido é adicionado ao pedido através do método adicionarLanche da classe Pedido.
+
+    Na opção 4, é exibido o total de pedidos utilizando um atributo static da classe Pedido.
+
+    O nextLine após o nextInt é utilizado para limpar o buffer e evitar problemas na leitura de dados.
+
+    A classe Main controla o fluxo do sistema, enquanto as classes Lanche e Pedido organizam os dados seguindo o conceito de orientação a objetos.
+     */

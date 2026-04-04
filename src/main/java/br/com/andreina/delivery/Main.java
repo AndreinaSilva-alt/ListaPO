@@ -92,4 +92,24 @@ import java.util.Scanner;
             sc.close();
         }
     }
+/*
+O programa utiliza um menu com do-while para continuar executando até o usuário escolher a opção 0.
 
+Foi utilizado ArrayList para armazenar todos os pedidos realizados no dia.
+
+Na opção 1, o sistema lê o nome do cliente, cria um novo pedido e permite adicionar uma ou mais marmitas até finalizar.
+
+O tamanho da marmita é escolhido por número e depois convertido para P, M ou G.
+
+Cada marmita criada é adicionada ao pedido por meio do método adicionarMarmita.
+
+Na opção 2, o sistema percorre a lista de pedidos e exibe todos os pedidos cadastrados.
+
+Na opção 3, é mostrado o total de pedidos usando o atributo static da classe Pedido.
+
+Na opção 4, o sistema percorre todos os pedidos, soma o valor total de cada um e mostra o total vendido no dia.
+
+O nextLine após o nextInt é usado para limpar o buffer do teclado e evitar problemas na leitura de texto.
+
+A classe Main controla o fluxo do sistema, enquanto as classes Pedido e Marmita organizam os dados de forma orientada a objetos.
+*/

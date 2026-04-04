@@ -54,4 +54,22 @@ public class Main {
          sc.close();
     }
 
+    /*
+O programa utiliza um menu com do-while para continuar executando até o usuário escolher sair.
+
+O Scanner é utilizado para capturar os dados digitados pelo usuário no teclado.
+
+Na opção 1, o sistema solicita a placa e o modelo do carro, cria um objeto Carro e registra a entrada no estacionamento.
+
+Na opção 2, o usuário informa a placa do veículo e o sistema realiza a remoção do carro da lista.
+
+Na opção 3, o sistema mostra a quantidade de vagas ocupadas utilizando o tamanho da lista de carros.
+
+Na opção 4, o sistema calcula e exibe as vagas livres com base no limite máximo definido na classe Estacionamento.
+
+O nextLine após o nextInt é utilizado para limpar o buffer e evitar erros na leitura de dados.
+
+A classe Main controla o fluxo do sistema, enquanto a classe Estacionamento gerencia os veículos cadastrados.
+*/
+
 }
