@@ -10,7 +10,7 @@ public class Main {
         int opcao;
 
         do {
-            System.out.println("\nACADEMIA");
+            System.out.println("ACADEMIA");
             System.out.println("1 - Cadastrar aluno");
             System.out.println("2 - Listar alunos");
             System.out.println("3 - Mostrar total de alunos");
@@ -74,3 +74,4 @@ O nextLine após o nextInt é usado para limpar o buffer e evitar erros de leitu
 O sistema segue o conceito de orientação a objetos, onde a Main controla o fluxo e a classe Academia gerencia os dados.
 */
 
+//A classe Main controla o menu principal do sistema da academia.
