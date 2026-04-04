@@ -111,5 +111,5 @@ Na opção 4, o sistema percorre todos os pedidos, soma o valor total de cada um
 
 O nextLine após o nextInt é usado para limpar o buffer do teclado e evitar problemas na leitura de texto.
 
-A classe Main controla o fluxo do sistema, enquanto as classes Pedido e Marmita organizam os dados de forma orientada a objetos.
 */
+//A classe Main controla o fluxo do sistema, enquanto as classes Pedido e Marmita organizam os dados de forma orientada a objetos.
