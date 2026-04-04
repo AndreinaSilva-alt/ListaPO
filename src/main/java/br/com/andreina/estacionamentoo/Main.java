@@ -54,6 +54,8 @@ public class Main {
          sc.close();
     }
 
+}
+
     /*
 O programa utiliza um menu com do-while para continuar executando até o usuário escolher sair.
 
@@ -71,5 +73,3 @@ O nextLine após o nextInt é utilizado para limpar o buffer e evitar erros na l
 
 A classe Main controla o fluxo do sistema, enquanto a classe Estacionamento gerencia os veículos cadastrados.
 */
-
-}
